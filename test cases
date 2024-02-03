@@ -1,0 +1,12 @@
+Page should consist of HTML heading element with text content as "Stopwatch"
+Page should consist of HTML button element with text content as "Start"
+Page should consist of two HTML button elements with text content as "Stop" and "Reset"
+Page should initially consist of HTML heading element with text content as "00:00"
+Page should consist of HTML image element with alt as "stopwatch" and src attribute value as the URL for the stopwatch image
+When the Start button is clicked, then the timer should start
+When the Stop button is clicked, then the timer should stop
+When the Reset button is clicked, then the timer should be reset to zero
+When the Start button is clicked after stopping the timer, then the timer should run from where it was stopped
+When the Start button is clicked, then the "setInterval" method should be called
+When the Stop button is clicked after starting the timer, then the "clearInterval" method should be called
+When the Reset button is clicked after starting the timer, then the "clearInterval" method should be called
